@@ -1,9 +1,8 @@
-  =>  Template Name    : Stocker - Stock Market Website Template
+echo "# primefundz-investment" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bigbenent/primefundz-investment.git
+git push -u origin main
 
-  =>  Template Link    : https://htmlcodex.com/stock-market-website-template
-
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
-
-  =>  Template Author  : HTML Codex
-
-  =>  Author Website   : https://htmlcodex.com
