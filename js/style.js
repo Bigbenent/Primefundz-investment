@@ -3,12 +3,13 @@
 
       // preloader
    // Simulating loading time
-   window.onload = function() {
-    setTimeout(function() {
-        document.getElementById("preloader").classList.add("fade-out");
-        document.getElementById("content").style.display = "block";
-    }, 2000); // Adjust time as needed
-};
+   window.addEventListener("load", function() {
+    setTimeout(() => {
+        document.querySelector(".preloader").style.display = "none";
+        document.querySelector(".content").style.display = "block";
+    }, 2000); // Adjust delay as needed
+});
+
 
     // Initiate the wowjs
     new WOW().init();
